@@ -1,0 +1,16 @@
+Package: radialNetworkR
+Type: Package
+Title: 'd3.js' Radial Network Graphs from R
+Description: Creates Interactive D3 JavaScript Radial Network Diagrams
+Version: 0.1.0
+Date: 2016-08-24
+Authors@R: 
+URL: http://github.com/timelyportfolio/radialNetworkR
+License: GPL (>= 3)
+Depends:
+    R (>= 3.1.0)
+Imports:
+    htmlwidgets
+Suggests:
+    htmltools
+Enhances: knitr, shiny
