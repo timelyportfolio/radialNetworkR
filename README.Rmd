@@ -1,12 +1,26 @@
+---
+output: github_document
+always_allow_html: true
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+
 ### d3 Radial Networks with a UI!
 
-Based on Wm Leler's [radial network](), this R [`htmlwidget`](http://htmlwidgets.org) provides a highly interactive radial network with a UI for zoom, collapse, and search. For more details, see the BuildingWidgets post [Week 21 | radialNetwork](www.buildingwidgets.com/blog/2015/5/28/week-21-radialnetwork).
+Based on Wm Leler's [radial network](), this R [`htmlwidget`](http://htmlwidgets.org) provides a highly interactive radial network with a UI for zoom, collapse, and search.  For more details, see the BuildingWidgets post [Week 21 | radialNetwork](www.buildingwidgets.com/blog/2015/5/28/week-21-radialnetwork).
 
 ### Example
 
-``` r
+```{r warning=FALSE, message=FALSE, eval=FALSE}
 #devtools::install_github("timelyportfolio/radialNetworkR")
 
 library(radialNetworkR)
