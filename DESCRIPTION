@@ -4,7 +4,24 @@ Title: 'd3.js' Radial Network Graphs from R
 Description: Creates Interactive D3 JavaScript Radial Network Diagrams
 Version: 0.1.0
 Date: 2016-08-24
-Authors@R: 
+Authors@R: c(
+      person(
+        "Mike", "Bostock"
+        , role = c("aut", "cph")
+        , comment = "d3.js library in htmlwidgets/lib, http://d3js.org"
+      ),
+      person(
+        "Wm", "Leler"
+        , role = c("aut", "cph")
+        , comment = "radial network code in htmlwidgets/lib, https://gist.github.com/wmleler/a734fb2bb3319a2cb386"
+      ),
+      person(
+        "Kent", "Russell"
+        , role = c("aut", "cre")
+        , comment = "R interface"
+        , email = "kent.russell@timelyportfolio.com"
+      )
+    )
 URL: http://github.com/timelyportfolio/radialNetworkR
 License: GPL (>= 3)
 Depends:
@@ -14,3 +31,4 @@ Imports:
 Suggests:
     htmltools
 Enhances: knitr, shiny
+RoxygenNote: 5.0.1

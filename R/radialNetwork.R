@@ -50,7 +50,7 @@ radialNetwork <- function(
                               knitr.figure = FALSE,
                               knitr.defaultWidth = 800,
                               knitr.defaultHeight = 500),
-    package = "networkD3")
+    package = "radialNetworkR")
 }
 
 #' custom html function for radialNetwork

@@ -17,16 +17,6 @@ HTMLWidgets.widget({
   },
 
   resize: function(el, width, height, tree) {
-    /*
-    diameter = Math.min(parseInt(width),parseInt(height));
-    s = d3.select(el).selectAll("svg");
-    s.attr("width", width).attr("height", height);
-    tree.size([360, diameter/2 - parseInt(s.attr("margin"))]);
-    svg = d3.select(el).selectAll("svg").select("g");
-    svg.attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")"
-                         + " scale("+diameter/800+","+diameter/800+")");
-                         
-    */
 
   },
 
