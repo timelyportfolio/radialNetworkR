@@ -2,7 +2,7 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 ### d3 Radial Networks with a UI!
 
-Based on Wm Leler's [radial network](), this R [`htmlwidget`](http://htmlwidgets.org) provides a highly interactive radial network with a UI for zoom, collapse, and search. For more details, see the BuildingWidgets post [Week 21 | radialNetwork](www.buildingwidgets.com/blog/2015/5/28/week-21-radialnetwork).
+Based on Wm Leler's [radial network](), this R [`htmlwidget`](http://htmlwidgets.org) provides a highly interactive radial network with a UI for zoom, collapse, and search. For more details, see the BuildingWidgets post [Week 21 | radialNetwork](http://www.buildingwidgets.com/blog/2015/5/28/week-21-radialnetwork).
 
 ### Example
 
